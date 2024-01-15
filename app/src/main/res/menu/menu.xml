@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/afegir"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="afegir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ajustes"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="ajustes"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/filtros"
+        android:icon="@android:drawable/btn_dropdown"
+        android:title="Filtros"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/buscar_desc"
+                android:icon="@android:drawable/ic_menu_search"
+                android:title="Buscar"
+                app:actionViewClass="androidx.appcompat.widget.SearchView"
+                app:showAsAction="ifRoom|collapseActionView" />
+            <item
+                android:id="@+id/filtrar_estoc"
+                android:title="Filtrar por estoc activat"></item>
+
+            <item
+                android:id="@+id/ordenar_codigo"
+                android:title="Ordenar por Código"></item>
+
+            <item
+                android:id="@+id/reset"
+                android:title="Reset"></item>
+        </menu>
+    </item>
+</menu>

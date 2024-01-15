@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Articles</string>
+    <string-array name="familia">
+        <item>""</item>
+        <item>@string/roba</item>
+        <item>@string/electronica</item>
+        <item>@string/alimentacio</item>
+    </string-array>
+    <string name="roba">Roba</string>
+    <string name="electronica">Electronica</string>
+    <string name="alimentacio">Alimentació</string>
+    <string name="codi">Codi</string>
+    <string name="enviar">Enviar</string>
+    <string name="descripcion">Descripció</string>
+    <string name="preu_sense_iva">Preu sense IVA</string>
+    <string name="familia">Familia</string>
+    <string name="estoc">Estoc</string>
+    <string name="estoc_actiu">Estoc Actiu</string>
+    <string name="codi_1">Codi</string>
+    <string name="descripci">Descripció</string>
+    <string name="familia_1">Familia</string>
+    <string name="preu_sense_iva_1">Preu sense Iva</string>
+    <string name="estoc_actual">Estoc Actual</string>
+    <string name="preu_iva">Preu IVA</string>
+    <string name="estoc_1">Estoc</string>
+    <string name="button">Botó</string>
+    <string name="configuraci_iva">Configuració Iva</string>
+</resources>
